@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../skrypty/skrypty.JS"></script>
+</head>
+<body style="margin:0; padding:0;">
+    <header><img src="../zdjecia/panorama.jpg" alt=""></header>
+    <div id="main">
+        <div id="left">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="../podstrony/galeria.html">Galeria</a></li>
+                    <li><a href="../podstrony/tabela.html">Nasza oferta</a></li>
+                    <li><a href="form.html">Pojedź z nami!</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="center">
+            <form action="" id="f1">
+                Imię <input type="text" id="imie" placeholder="Wpisz imię" pattern="^[A-Z]{1}[a-z]{2,8}" required/>
+                <br><br>
+                Nazwisko <input type="text" id="nazwisko" placeholder="Wpisz nazwisko" pattern="^[A-Z]{1}[a-z]{2,20}" required/>
+                <br><br>
+                Data urodzenia <input type="datatime-local" id="data" placeholder="dd-mm-rr" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}" required />
+                <br><br>
+                Wybierz kraj <select id="kraje" required>
+                    <option value="afryka">Afryka</option>
+                    <option value="brazylia">Brazylia</option>
+                    <option value="chiny">Chiny</option>
+                    <option value="gruzja">Gruzja</option>
+                    <option value="indie">Indie</option>
+                    <option value="japonia">Japonia</option>
+                    <option value="malezja">Malezja</option>
+                    <option value="peru">Peru</option>
+                    <option value="USA">USA</option>
+                    <option value="wietnam">Wietnam</option>
+                </select>
+                <br><br>
+                Czy chcesz dodatkowe ubezpieczenie?
+                <input type="radio" name="ubezpieczenie" id="tak"/>TAK
+                <input type="radio" name="ubezpieczenie" id="nie"/>NIE
+                <span id="uzupelnij"></span>
+                <br><br>
+                Nr telefonu<input type="text" id="telefon" placeholder="123456789" pattern="^[1-9]{1}[0-9]{8}" required />
+                <br><br>
+                Wybierz posiłki:
+                <input type="checkbox" value="sniadania" id="sniadania"/>Śniadania
+                <input type="checkbox" value="obiady" id="obiady"/>Obiady
+                <input type="checkbox" value="kolacje" id="kolacje"/>Kolacje
+                <span id="uzupelnij2"></span>
+                <br><br>
+                Dołącz skan podpisanej umowy <input type="file" value="umowa"/>
+                <br><br>
+                Ilość dzieci <input type="number" id="liczba" required>
+                <br><br>
+                <input type="button" onclick="return potwierdz()" value="Potwierdź"/>             
+                
+           
+            </form>
+           
+            <footer>  &emsp; telefon: (+48) 123 456 789 &emsp;&emsp; e-mail: biuro-podrozy@o2.pl</footer>
+        </div>
+        
+        
+        </div>
+        
+    </div>
+</body>
+</html>

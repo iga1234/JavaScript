@@ -1,0 +1,143 @@
+body {
+    
+    background-color: white;
+}
+
+#main {
+    background-color: #fff2e6;
+    display: flex;
+    
+  
+}
+
+#center{
+    width: 100%;  
+    
+}
+
+header img{
+    width: 80%;
+    height: 200px;
+    
+    
+}
+
+#left{
+    background-color: #ffd9b3;
+    width: 250px;
+    float: left;
+}
+
+header{
+
+    background-color: #ffcc99;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+nav ul{
+    margin: 0 auto;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav ul li :hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color: #ffcc99;
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+#s1{
+    margin: 50px;
+    height: 250px;
+    font-size: 20px;
+    
+}
+
+table{
+    width: 70%;
+}
+
+table, th{
+    
+    margin: 50px;
+    border: 2px solid black;
+    height: 40px;
+
+}
+
+th.naglowek{
+    text-align: center;
+    background-color: #ffcc99;
+    padding: 2px;
+}
+
+.kraj{
+    text-align: left;
+    background-color: #ffd9b3;
+}
+
+.data,
+.cena{
+    text-align: center;
+    
+}
+
+tfoot{
+    text-align: center;
+    background-color: #ffcc99;
+    padding: 2px;
+   
+}
+
+form{
+    margin: 50px;
+}
+
+#s2 img{
+    
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+div img{
+    width: 600px;
+    height: 400px;
+}
+
+#okno{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    display: none;
+}
